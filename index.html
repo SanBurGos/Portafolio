@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="container">
+    <h1>Tu Nombre</h1>
+    <nav>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+      <button id="theme-toggle" aria-label="Cambiar tema">🌙</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Desarrollador web enfocado en soluciones simples, funcionales y elegantes. Apasionado por la tecnología y el diseño limpio.</p>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="proyectos-grid">
+        <div class="proyecto">
+          <h3>Proyecto 1</h3>
+          <p>Una breve descripción del proyecto.</p>
+        </div>
+        <div class="proyecto">
+          <h3>Proyecto 2</h3>
+          <p>Otra breve descripción del proyecto.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <input type="text" placeholder="Tu nombre" required />
+        <input type="email" placeholder="Tu correo" required />
+        <textarea placeholder="Tu mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Tu Nombre. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
